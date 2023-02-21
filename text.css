@@ -1,0 +1,53 @@
+html,body{
+	margin:0; 
+	padding:0;
+	text-align:center;
+}
+img{
+	max-width:100%;
+}
+body > p{
+	margin-bottom:90vh;
+}
+ul{
+	max-width:960px;
+	margin:auto;
+	padding:0 0 300px;
+	list-style:none;
+}
+ul li{
+	min-height:100vh;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	position:relative;
+}
+
+ul li figure{
+	max-width:960px;
+	width:100%;
+	margin:0;
+	text-align:left;
+	position:absolute;
+	top:0;
+}
+ul li figure.fixed{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+ul li figure img{
+	width:40%;
+	display:none;
+}
+ul li section{
+	width:60%;
+	text-align:left;
+}
+
+
+
