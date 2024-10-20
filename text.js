@@ -8,7 +8,7 @@ $(window).on('load scroll',function(){
 		if(scr_count>$('ul').offset().top + $('ul').height()-$(window).height()*4/3){
 			$('ul').find('figure').removeClass('fixed');
 		}else if(scr_count>scr_li-$(window).height()*2/3 && scr_count<scr_li+$(window).height()/3){
-			$(this).find('img').fadeIn('fsst');
+			$(this).find('img').fadeIn('fast');
 			$(this).find('figure').addClass('fixed');
 		}else{
 			$(this).find('img').fadeOut('fast');
